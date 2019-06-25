@@ -9,19 +9,20 @@ const ProjectPage = ({ data }) => (
   <Layout>
     <SEO title="Projects" />
     <h1>Projects</h1>
-
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-
+    
     <div>
     {data.allMarkdownRemark.edges.map(({node}) => (
       <div key={node.id}>
+        <Link to={node.fields.slug}>
+
+
         <h3>
           {node.frontmatter.title}{""}
         </h3>
         <span>
           - {node.frontmatter.date}
         </span>
+        </Link>
       </div>
     ))}
     </div>
@@ -44,6 +45,9 @@ export const query = graphql`
           frontmatter {
             title
             date(formatString: "DD MMMM, YYYY")
+          }
+          fields {
+            slug
           }
         }
       }
