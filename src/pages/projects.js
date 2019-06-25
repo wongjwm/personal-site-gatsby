@@ -10,18 +10,17 @@ const ProjectPage = ({ data }) => (
     <SEO title="Projects" />
     <h1>Projects</h1>
     
-    <div>
+    <div className='projects' style={{
+      display: 'flex',
+      flexWrap: "wrap",
+      justifyContent: "space-between",
+    }}>
     {data.allMarkdownRemark.edges.map(({node}) => (
       <div key={node.id}>
         <Link to={node.fields.slug}>
-
-
         <h3>
           {node.frontmatter.title}{""}
         </h3>
-        <span>
-          - {node.frontmatter.date}
-        </span>
         </Link>
       </div>
     ))}
