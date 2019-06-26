@@ -3,17 +3,12 @@ import PropTypes from "prop-types"
 import React from "react"
 
 const Header = ({ siteTitle, menuLinks }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-    }}
-  >
+  <header>
     <div
       style={{
         margin: `0 auto`,
         display: 'flex',
         justifyContent: 'space-between',
-        maxWidth: 960,
         height: '60px',
       }}
     >
@@ -24,8 +19,9 @@ const Header = ({ siteTitle, menuLinks }) => (
         <Link
           to="/"
           style={{
-            color: `white`,
+            color: `#004953`,
             textDecoration: `none`,
+            letterSpacing: `0.1em`,
           }}
         >
           {siteTitle}
@@ -44,14 +40,15 @@ const Header = ({ siteTitle, menuLinks }) => (
                 style={{
                   listStyleType: 'none',
                   padding: '1rem',
+                  letterSpacing: `0.1em`,
+                  textDecoration: `none`,
                 }}
                 >
-                <Link style={{ color:'white '}} to={link.link}>
+                <Link style={{ color:'#004953'}} to={link.link}>
                   {link.name}
                 </Link>
               </li>
             ))}
-
           </ul>
         </nav>
       </div>

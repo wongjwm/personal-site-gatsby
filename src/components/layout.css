@@ -199,7 +199,7 @@ html {
   box-sizing: inherit;
 }
 body {
-  color: hsla(0, 0%, 0%, 0.8);
+  color: #004953;
   font-family: Avenir;
   font-weight: normal;
   word-wrap: break-word;

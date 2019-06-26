@@ -5,10 +5,10 @@ import "./footer.css"
 
 const Footer = () => (
   <footer>
-    © {new Date().getFullYear()}, Designed & Developed by Judy Wong. 
-    Built with
+    © {new Date().getFullYear()}, designed & developed by judy wong. 
+    built with
     {` `}
-    <a href="https://www.gatsbyjs.org">Gatsby</a>
+    <a href="https://www.gatsbyjs.org">gatsby</a>
   </footer>
 )
 

@@ -1,4 +1,5 @@
 body {
+    background-color: #f7f0f0;
     -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 2s; /* Firefox < 16 */
             animation: fadein 2s;
@@ -19,4 +20,32 @@ body {
 @-webkit-keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
+}
+
+a { 
+    color:red;
+}
+
+/* Each state */
+a:visited { 
+    text-decoration: none; 
+    color:red; 
+}
+
+a:hover { 
+    text-decoration: underline; 
+    color:blue; 
+}
+
+a:focus { 
+    text-decoration: none; 
+    color:yellow;
+}
+
+a:hover, a:active { 
+    text-decoration: underline; color:black 
+}
+
+p {
+    font-size: 25px;
 }

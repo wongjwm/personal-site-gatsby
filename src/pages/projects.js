@@ -15,19 +15,19 @@ const ProjectPage = ({ data }) => (
       flexWrap: "wrap",
       justifyContent: "space-between",
     }}>
-    {data.allMarkdownRemark.edges.map(({node}) => (
-      <div key={node.id}>
-        <Link to={node.fields.slug}>
-        <h3>
-          {node.frontmatter.title}{""}
-        </h3>
-        </Link>
-      </div>
-    ))}
+
+      {data.allMarkdownRemark.edges.map(({node}) => (
+        <div key={node.id}>
+          <Link to={node.fields.slug}>
+            <h3>
+              {node.frontmatter.title}{""}
+            </h3>
+          </Link>
+        </div>
+      ))}
+      
     </div>
 
-
-    <Link to="/page-2/">Go to page 2</Link>
   </Layout>
 )
 

@@ -1,0 +1,19 @@
+.about-block {
+  margin: 0 auto;
+  color: #004953;
+  width: 80%;
+}
+
+.about-description {
+  display: flex;
+}
+
+.about-description p {
+  font-size: 18px;
+}
+
+.profile-pic {
+  z-index: 1;
+  width: 40%;
+  height: 40%;
+}
