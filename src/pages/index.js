@@ -11,30 +11,44 @@ const IndexPage = ( {data} ) => (
   <Layout>
     <SEO title="Home" />
 
-    <h1 style = {{
-      paddingTop: '50px',
-      fontSize: '56px',
-      textShadow: '2px 2px #FF0000',
-    }}> 
-      well, hello!
-    </h1>
+    <div className= 'hero' style = {{
+      height: '400px'
+    }} >
+      <h1 style = {{
+        paddingTop: '50px',
+        fontSize: '56px',
+        textShadow: '2px 2px #FF0000',
+      }}> 
+        well, hello!
+      </h1>
 
-    <p>i'm judy wong. nyc-based designer & developer.</p>
+      <p>i'm <b>judy wong</b>. nyc-based designer & developer.</p>
+      <p>check out some of my work <a href="/projects">here</a> and learn 
+      more about me <a href="/about">here</a>! </p>
 
-    <p>check out some of my work <a href="/projects">here</a> and learn 
-    more about me <a href="/about">here</a>!
-    </p>
-
-      <div className='projects' style={{
+    </div>
+    
+    <h1>projects</h1>
+    <div className='projects' style={{
       display: 'flex',
       flexWrap: "wrap",
       justifyContent: "space-between",
     }}>
 
       {data.allMarkdownRemark.edges.map(({node}) => (
-        <div key={node.id}>
+        <div key={node.id} style= {{
+          width: '300px', 
+          height: '300px',
+          background: 'white',
+          boxShadow: '0 2px 2px -2px rgba(0,0,0,.2)',
+          marginBottom: '10px',
+        }} >
           <Link to={node.fields.slug}>
-            <h3>
+            <h3 style={{
+              textAlign: 'center',
+              verticalAlign: 'middle',
+              marginTop: '110px',
+            }}>
               {node.frontmatter.title}{""}
             </h3>
           </Link>

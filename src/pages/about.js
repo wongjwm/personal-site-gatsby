@@ -12,7 +12,7 @@ const AboutPage = () => (
   <Layout>
     <SEO title="about me" />
 
-    <div class="about-block" style = {{
+    <div className="about-block" style = {{
       paddingTop: '50px',
     }}>
       <h2>about me!</h2>
@@ -39,7 +39,7 @@ const AboutPage = () => (
           coast, looking for full-time, post-grad opportunities.
           i’m currently in my last year of studies at northeastern 
           university, where i am pursuing a B.S. in computer 
-          science/interactive media. </p>
+          science & interactive media. </p>
           <p> my interests lie primarily in the intersection of design 
           and technology— how can i make a certain product more 
           usable and accessible? </p> 
@@ -48,7 +48,22 @@ const AboutPage = () => (
           (check out some of my shots here!), museum hopping, 
           or treasure hunting at the latest thrift store! </p>
 
+          <h3>skills</h3>
+          <p>design: Sketch, Adobe Photoshop, Adobe Illustrator, Adobe Indesign, InVision, Zeplin</p>
+
+          <p>code: HTML/CSS + SASS, Javascript, React, React Native, Swift, Java</p>
+
+          <p>other: Git, XCode, Jira</p>
+
+          <h3>experience</h3>
+          <p>Jan 2019 - currently : Software Engineer Co-op @ Invesco</p>
+
+          <p>Sept 2018 - Dec 2018 : Designer & Developer for Scout</p>
+
+          <p>Jan 2018 - June 2018 : iOS Developer Co-op @ Bose Corporation</p>
+
           <p>check out my resume here and shoot me an email @ wong.ju@husky.neu.edu!</p>
+
         </div>
       </div>
     </div>

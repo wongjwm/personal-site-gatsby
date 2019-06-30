@@ -1,6 +1,7 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+import './header.css'
 
 const Header = ({ siteTitle, menuLinks }) => (
   <header>
@@ -12,18 +13,8 @@ const Header = ({ siteTitle, menuLinks }) => (
         height: '60px',
       }}
     >
-      <h1 style= {{
-        margin: '10px',
-      }}
-      >
-        <Link
-          to="/"
-          style={{
-            color: `#004953`,
-            textDecoration: `none`,
-            letterSpacing: `0.1em`,
-          }}
-        >
+      <h1>
+        <Link to="/">
           {siteTitle}
         </Link>
       </h1>
@@ -42,6 +33,8 @@ const Header = ({ siteTitle, menuLinks }) => (
                   padding: '1rem',
                   letterSpacing: `0.1em`,
                   textDecoration: `none`,
+                  fontSize: `25px`,
+                  fontWeight: `800`,
                 }}
                 >
                 <Link style={{ color:'#004953'}} to={link.link}>

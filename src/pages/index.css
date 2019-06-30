@@ -1,5 +1,8 @@
 body {
-    background-color: #f7f0f0;
+    /* background-color: #f7f0f0; */
+
+    background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+
     -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 2s; /* Firefox < 16 */
             animation: fadein 2s;
@@ -46,6 +49,6 @@ a:hover, a:active {
     text-decoration: underline; color:black 
 }
 
-p {
+.hero p {
     font-size: 25px;
 }
