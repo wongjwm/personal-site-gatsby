@@ -4,30 +4,38 @@ import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
+import './projects.css'
 
 const ProjectPage = ({ data }) => (
   <Layout>
     <SEO title="Projects" />
-    <h1>Projects</h1>
+    <h1>projects</h1>
     
     <div className='projects' style={{
       display: 'flex',
-      flexWrap: "wrap",
+      flexWrap: 'wrap',
       justifyContent: "space-between",
     }}>
 
       {data.allMarkdownRemark.edges.map(({node}) => (
-        <div key={node.id}>
+        <div className='box' key={node.id} style= {{
+          width: '300px', 
+          height: '300px',
+          backgroundImage: `url(${node.frontmatter.image})`,
+        }} >
           <Link to={node.fields.slug}>
-            <h3>
+            <h3 style={{
+              textAlign: 'center',
+              verticalAlign: 'middle',
+              marginTop: '110px',
+            }}>
               {node.frontmatter.title}{""}
+              {node.frontmatter.image}{""}
             </h3>
           </Link>
         </div>
       ))}
-      
     </div>
-
   </Layout>
 )
 
@@ -44,6 +52,7 @@ export const query = graphql`
           frontmatter {
             title
             date(formatString: "DD MMMM, YYYY")
+            image
           }
           fields {
             slug

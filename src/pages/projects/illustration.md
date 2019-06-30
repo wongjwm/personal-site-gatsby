@@ -1,5 +1,10 @@
 ---
-title: "Illustrations"
+title: "Digital Illustrations"
 date: "2019-06-24"
+cover_image: "../images/profile-pic.jpg"
 ---
 
+<p>Various illustrations that I've done throughout the years. Done with Adobe Illustrator. </p>
+
+
+![Alt text](poppy-01.png?raw=true "Title")
