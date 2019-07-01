@@ -1,7 +1,7 @@
 ---
 title: "Personal Website"
 date: "2019-06-24"
-image: "../images/profile-pic.jpg"
+image: "./profile-pic.jpg"
 ---
 
 <p>My first personal website was built using simply HTML/CSS. While it did the job at the time, it didn't allow for flexibility and easy expansion. For a second version of my personal online portfolio, I developed this website using Gatsby, a powerful static website generator. Gatsby makes use of React, a Javascript framework I was already familiar with, in addition to GraphQL, a natural querying language, which I managed to pick up some of along the way!</p>

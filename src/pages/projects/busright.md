@@ -1,7 +1,7 @@
 ---
 title: "BusRight"
 date: "2019-06-24"
-cover_image: "../images/profile-pic.jpg"
+image: "./profile-pic.jpg"
 ---
 
 

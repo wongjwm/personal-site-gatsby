@@ -21,7 +21,7 @@ const ProjectPage = ({ data }) => (
         <div className='box' key={node.id} style= {{
           width: '300px', 
           height: '300px',
-          backgroundImage: `url(${node.frontmatter.image})`,
+          backgroundImage: `url(${node.frontmatter.image.childImageSharp.fluid.src})`,
         }} >
           <Link to={node.fields.slug}>
             <h3 style={{
@@ -30,7 +30,6 @@ const ProjectPage = ({ data }) => (
               marginTop: '110px',
             }}>
               {node.frontmatter.title}{""}
-              {node.frontmatter.image}{""}
             </h3>
           </Link>
         </div>
@@ -52,7 +51,13 @@ export const query = graphql`
           frontmatter {
             title
             date(formatString: "DD MMMM, YYYY")
-            image
+            image {
+              childImageSharp {
+                fluid(maxWidth: 980) {
+                  src
+                }
+              }
+            }
           }
           fields {
             slug

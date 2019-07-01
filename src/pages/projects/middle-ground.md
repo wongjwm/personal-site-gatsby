@@ -1,7 +1,7 @@
 ---
 title: "Middle Ground"
 date: "2019-06-24"
-cover_image: "../images/profile-pic.jpg"
+image: "./profile-pic.jpg"
 ---
 
 <p> Middle Ground is a web app providing a non-biased perspective on political issues by featuring articles on either side of the debate, allowing the user to make an informed opinion on the subject of question.
