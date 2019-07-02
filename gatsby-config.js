@@ -10,6 +10,10 @@ module.exports = {
         name:'projects',
         link:'/projects'
       },
+      // {
+      //   name:'resume',
+      //   link:'/resume.pdf'
+      // },
     ],
     description: `judy wong's personal website`,
     author: `@gatsbyjs`,
@@ -49,7 +53,8 @@ module.exports = {
               // It's important to specify the maxWidth (in pixels) of
               // the content container as this plugin uses this as the
               // base for generating different widths of each image.
-              maxWidth: 590,
+              maxWidth: 400,
+                wrapperStyle: 'border: 5px solid red; margin-left: 0!important; margin-right: 0!important;',
             },
           },
         ],

@@ -3,6 +3,10 @@ import PropTypes from "prop-types"
 import React from "react"
 import './header.css'
 
+const activeStyles = {
+  textDecoration: 'blue underline wavy', 
+}
+
 const Header = ({ siteTitle, menuLinks }) => (
   <header>
     <div
@@ -31,13 +35,11 @@ const Header = ({ siteTitle, menuLinks }) => (
                 style={{
                   listStyleType: 'none',
                   padding: '1rem',
-                  letterSpacing: `0.1em`,
-                  textDecoration: `none`,
                   fontSize: `25px`,
                   fontWeight: `800`,
                 }}
                 >
-                <Link style={{ color:'#004953'}} to={link.link}>
+                <Link style={{ color:'#004953'}} to={link.link} activeStyle={activeStyles}>
                   {link.name}
                 </Link>
               </li>

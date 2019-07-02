@@ -4,7 +4,7 @@ footer {
   justify-content: space-between;
   font-size: 16px;
   padding: 2.5%;
-  height: 60px;
+  height: 10%;
 }
 
 .social-media-links {
@@ -14,4 +14,18 @@ footer {
 
 .social-media-links a {
   padding-left: 5px;
+}
+
+@media screen and (max-width: 750px) {
+
+  footer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .social-media-links {
+    display: flex;
+    flex-direction: column;
+  }
+
 }

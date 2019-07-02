@@ -1,7 +1,8 @@
 body {
     /* background-color: #f7f0f0; */
 
-    background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+    background-image: radial-gradient(73% 147%, #EADFDF 59%, #ECE2DF 100%), radial-gradient(91% 146%, rgba(255,255,255,0.50) 47%, rgba(0,0,0,0.50) 100%);
+    background-blend-mode: screen;
 
     -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 2s; /* Firefox < 16 */
@@ -27,6 +28,7 @@ body {
 
 a { 
     color:red;
+    text-decoration: none; 
 }
 
 /* Each state */
@@ -36,19 +38,32 @@ a:visited {
 }
 
 a:hover { 
-    text-decoration: underline; 
+    text-decoration: yellow underline wavy; 
     color:blue; 
 }
 
 a:focus { 
-    text-decoration: none; 
+    text-decoration: blueviolet underline wavy; 
     color:yellow;
 }
 
 a:hover, a:active { 
-    text-decoration: underline; color:black 
+    text-decoration: blue underline wavy 
+}
+
+.hero {
 }
 
 .hero p {
     font-size: 25px;
+}
+
+@media screen and (max-width: 600px) {
+    h1 {
+      font-size: 18px;
+    }
+  
+    p {
+      font-size: 14px;
+    }
 }

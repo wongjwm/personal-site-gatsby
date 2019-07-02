@@ -12,13 +12,11 @@ const AboutPage = () => (
   <Layout>
     <SEO title="about me" />
 
-    <div className="about-block" style = {{
-      paddingTop: '50px',
-    }}>
+    <div className="about-block">
       <h2>about me!</h2>
-      <div class="about-description">
+      <div className="about-description">
 
-      <img class= "profile-pic" src={profilepic}/>
+      <img className= "profile-pic" src={profilepic}/>
 
         <div style= {{
           position: 'absolute',
@@ -30,14 +28,9 @@ const AboutPage = () => (
           paddingLeft: '100px',
         }}/>
 
-        <div style={{
-          paddingLeft: '50px',
-          width: '450px',
-        }}>
-        
+        <div className="about-description-paragraph">
           <p>hi! i’m judy wong, designer and developer based on the east 
-          coast, looking for full-time, post-grad opportunities.
-          i’m currently in my last year of studies at northeastern 
+          coast. i’m currently in my last year of studies at northeastern 
           university, where i am pursuing a B.S. in computer 
           science & interactive media. </p>
           <p> my interests lie primarily in the intersection of design 
@@ -47,25 +40,53 @@ const AboutPage = () => (
           for new design inspiration, you can catch me on a photoshoot 
           (check out some of my shots here!), museum hopping, 
           or treasure hunting at the latest thrift store! </p>
-
-          <h3>skills</h3>
-          <p>design: Sketch, Adobe Photoshop, Adobe Illustrator, Adobe Indesign, InVision, Zeplin</p>
-
-          <p>code: HTML/CSS + SASS, Javascript, React, React Native, Swift, Java</p>
-
-          <p>other: Git, XCode, Jira</p>
-
-          <h3>experience</h3>
-          <p>Jan 2019 - currently : Software Engineer Co-op @ Invesco</p>
-
-          <p>Sept 2018 - Dec 2018 : Designer & Developer for Scout</p>
-
-          <p>Jan 2018 - June 2018 : iOS Developer Co-op @ Bose Corporation</p>
-
-          <p>check out my resume here and shoot me an email @ wong.ju@husky.neu.edu!</p>
-
         </div>
+
       </div>
+
+        <div>
+        <h3>skills</h3>
+
+        <div className="skills-description">
+
+          <div>
+            <h4>design: </h4>
+            <ul>
+              <li>Sketch</li>
+              <li>Adobe Photoshop</li>
+              <li>Adobe Illustrator</li>
+              <li>Adobe Indesign</li>
+              <li>Invision</li>
+              <li>Zeplin</li>
+            </ul>
+          </div>
+
+          <div>
+          <h4>code:</h4>
+            <ul>
+              <li>HTML/CSS + SASS</li>
+              <li>Javascript</li>
+              <li>React/React Native</li>
+              <li>Swift</li>
+              <li>Java</li>
+            </ul>
+          </div>
+
+          <div>
+          <h4>other:</h4>
+            <ul>
+              <li>Git</li>
+              <li>XCode</li>
+              <li>Jira</li>
+            </ul>
+          </div>
+          
+        </div>
+
+        <p>check out my resume here and shoot me an email @ <a href="mailto:wong.ju@husky.neu.edu">wong.ju@husky.neu.edu</a></p>
+        
+      </div>
+
     </div>
   </Layout>
 )

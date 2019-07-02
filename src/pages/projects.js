@@ -19,8 +19,6 @@ const ProjectPage = ({ data }) => (
 
       {data.allMarkdownRemark.edges.map(({node}) => (
         <div className='box' key={node.id} style= {{
-          width: '300px', 
-          height: '300px',
           backgroundImage: `url(${node.frontmatter.image.childImageSharp.fluid.src})`,
         }} >
           <Link to={node.fields.slug}>

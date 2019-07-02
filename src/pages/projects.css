@@ -6,6 +6,8 @@
   box-shadow: 0 1px 2px rgba(0,0,0,0.15);
   transition: all 0.3s ease-in-out;
   margin-bottom: 10px;
+  width: 300px; 
+  height: 300px;
 }
 
 .box::after {
@@ -27,4 +29,12 @@
 /* Fade in the pseudo-element with the bigger shadow */
 .box:hover::after {
   opacity: 1;
+}
+
+
+@media screen and (max-width: 950px) {
+  .box {
+    width: 400px; 
+    height: 400px;
+  }
 }

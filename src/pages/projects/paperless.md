@@ -1,7 +1,7 @@
 ---
 title: "Paperless"
 date: "2019-06-24"
-image: "./poppy-01.png"
+image: "./paperless-homepage.png"
 ---
 
 <p>Paperless is an application that allows users to easily track their physical receipts and access data that is relevant to their spending habits. Through Optical Capture Recognition, a technology which is able to parse an image of a physical receipt into raw data, Paperless is able to store this data as individual entries, as well as visualize meaningful data. </p>

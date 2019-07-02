@@ -4,6 +4,6 @@ header h1 {
 
 header Link {
   color: #004953;
-  text-decoration: none;
+  text-decoration: green underline wavy;
   letter-spacing: 0.1em;
 }
