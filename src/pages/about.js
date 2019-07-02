@@ -1,7 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-
-import Image from "../components/image"
+// import Image from "../components/image"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -17,16 +16,6 @@ const AboutPage = () => (
       <div className="about-description">
 
       <img className= "profile-pic" src={profilepic}/>
-
-        <div style= {{
-          position: 'absolute',
-          backgroundColor: '#004953',
-          width: '250px',
-          height: '300px',
-          zIndex: 'auto',
-          paddingTop: '100px',
-          paddingLeft: '100px',
-        }}/>
 
         <div className="about-description-paragraph">
           <p>hi! i’m judy wong, designer and developer based on the east 

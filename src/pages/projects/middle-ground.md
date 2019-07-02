@@ -10,6 +10,7 @@ This idea originally stemmed from the hot topic of "fake news", which has been p
 
 Check out the site here! 
 
-![Middle Ground Preview 1](middle-ground-proj.png?raw=true "Middle Ground Preview 1")
-
-![Middle Ground Preview 2](middle-ground-proj-2.png?raw=true "Middle Ground Preview 2")
+<div class="illustration-images">
+  <img src="middle-ground-proj.png" alt="lily collins">
+  <img src="middle-ground-proj-2.png" alt="lily collins">
+</div>

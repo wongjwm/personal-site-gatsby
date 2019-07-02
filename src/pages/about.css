@@ -41,9 +41,9 @@
   }
 
   .profile-pic {
-    z-index: 1;
     width: 80%;
     height: 80%;
+    box-shadow: 10px 10px #004953;
   }
 
 }

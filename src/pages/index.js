@@ -14,14 +14,8 @@ const IndexPage = ( {data} ) => (
     <div className= 'hero' style = {{
       height: '600px'
     }} >
-      <h1 style = {{
-        paddingTop: '50px',
-        fontSize: '56px',
-        textShadow: '2px 2px #FF0000',
-      }}> 
-        well, hello!
-      </h1>
-
+      
+      <h1> well, hello!</h1>
       <p>i'm <b>judy wong</b>. nyc-based designer & developer.</p>
       <p>learn more about me <a href="/about">here</a>! and check out my work <a href="/projects">here</a>!</p>
 

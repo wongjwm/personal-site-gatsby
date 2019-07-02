@@ -20,12 +20,16 @@ const ProjectPage = ({ data }) => (
       {data.allMarkdownRemark.edges.map(({node}) => (
         <div className='box' key={node.id} style= {{
           backgroundImage: `url(${node.frontmatter.image.childImageSharp.fluid.src})`,
+          backgroundSize: 'cover',
+          backgroundColor: 'white',
         }} >
           <Link to={node.fields.slug}>
             <h3 style={{
+              // display: 'inline',
               textAlign: 'center',
               verticalAlign: 'middle',
               marginTop: '110px',
+              backgroundColor: 'white',
             }}>
               {node.frontmatter.title}{""}
             </h3>

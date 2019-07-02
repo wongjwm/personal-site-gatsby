@@ -1,6 +1,5 @@
 body {
     /* background-color: #f7f0f0; */
-
     background-image: radial-gradient(73% 147%, #EADFDF 59%, #ECE2DF 100%), radial-gradient(91% 146%, rgba(255,255,255,0.50) 47%, rgba(0,0,0,0.50) 100%);
     background-blend-mode: screen;
 
@@ -26,6 +25,16 @@ body {
     to   { opacity: 1; }
 }
 
+.hero h1{
+    padding-top: 10%;
+    font-size: 56px;
+    text-shadow: 2px 2px #FF0000;
+}
+
+.hero p {
+    font-size: 25px;
+}
+
 a { 
     color:red;
     text-decoration: none; 
@@ -38,8 +47,7 @@ a:visited {
 }
 
 a:hover { 
-    text-decoration: yellow underline wavy; 
-    color:blue; 
+    text-decoration: yellow underline wavy;
 }
 
 a:focus { 
@@ -51,19 +59,15 @@ a:hover, a:active {
     text-decoration: blue underline wavy 
 }
 
-.hero {
-}
-
-.hero p {
-    font-size: 25px;
-}
 
 @media screen and (max-width: 600px) {
-    h1 {
-      font-size: 18px;
+    .hero h1{
+        font-size: 36px;
+        text-shadow: 2px 2px #FF0000;
     }
-  
-    p {
-      font-size: 14px;
-    }
+    
+    .hero p {
+        font-size: 18px;
+        margin-bottom: 2.5%;
+    }   
 }

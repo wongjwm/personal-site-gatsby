@@ -1,7 +1,7 @@
 ---
 title: "BusRight"
 date: "2019-06-24"
-image: "./profile-pic.jpg"
+image: "./abstract-03.png"
 ---
 
 <p>During the Fall 2018 semester, I was a part of Scout, Northeastern University's student-led design studio, which takes on new clients every semester and works with them to deliever what they need. The client my team worked with was BusRight.</p>
