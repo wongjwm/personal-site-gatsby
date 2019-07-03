@@ -18,9 +18,9 @@ const AboutPage = () => (
       <img className= "profile-pic" src={profilepic}/>
 
         <div className="about-description-paragraph">
-          <p>hi! i’m judy wong, designer and developer based on the east 
+          <p>hi! i’m <b>judy wong</b>, designer and developer based on the east 
           coast. i’m currently in my last year of studies at northeastern 
-          university, where i am pursuing a B.S. in computer 
+          university in boston, where i'm pursuing a B.S. in computer 
           science & interactive media. </p>
           <p> my interests lie primarily in the intersection of design 
           and technology— how can i make a certain product more 
@@ -34,7 +34,9 @@ const AboutPage = () => (
       </div>
 
         <div>
-        <h3>skills</h3>
+        <h3 style={{
+            textDecoration: 'green underline wavy',
+        }}>skills</h3>
 
         <div className="skills-description">
 

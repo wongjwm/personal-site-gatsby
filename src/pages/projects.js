@@ -25,7 +25,7 @@ const ProjectPage = ({ data }) => (
         }} >
           <Link to={node.fields.slug}>
             <h3 style={{
-              // display: 'inline',
+              color: 'black',
               textAlign: 'center',
               verticalAlign: 'middle',
               marginTop: '110px',

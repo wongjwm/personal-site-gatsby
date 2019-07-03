@@ -6,7 +6,7 @@ image: "./culture-show-poster.png"
 
 As an active member of the Asian-American community at Northeastern University, I always looked for ways to get involved. This desire manifested into the design work I've done over my past years at school.
 
-During my 2nd year of college, I was previously Media & Design Specialist of the Chinese Student Association, which involved everything from creating marketing materials for events that hundreds of people attended, to designing apparel for the club to sell.
+During my 2nd year of college, I was Media & Design Specialist of the Chinese Student Association, which involved everything from creating marketing materials for events that hundreds of people attended, to designing apparel for the club to sell.
 
 <div class="illustration-images">
   <img src="open-mic-final.jpg" alt="lily collins">
