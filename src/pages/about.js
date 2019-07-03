@@ -6,6 +6,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import "./about.css"
 import profilepic from '../images/profile-pic.jpg';
+import resume from "../content/resume-2019.pdf";
 
 const AboutPage = () => (
   <Layout>
@@ -74,7 +75,7 @@ const AboutPage = () => (
           
         </div>
 
-        <p>check out my resume here and shoot me an email @ <a href="mailto:wong.ju@husky.neu.edu">wong.ju@husky.neu.edu</a></p>
+        <p>check out my resume <a href={resume}>here</a> and shoot me an email @ <a href="mailto:wong.ju@husky.neu.edu">wong.ju@husky.neu.edu</a></p>
         
       </div>
 
