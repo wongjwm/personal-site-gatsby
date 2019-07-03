@@ -21,15 +21,15 @@
 }
 
 /* Scale up the box */
-.box:hover {
+/* .box:hover {
   -webkit-transform: scale(1.2, 1.2);
   transform: scale(1.2, 1.2);
 }
 
 /* Fade in the pseudo-element with the bigger shadow */
-.box:hover::after {
+/* .box:hover::after {
   opacity: 1;
-}
+}  */
 
 
 @media screen and (max-width: 950px) {
