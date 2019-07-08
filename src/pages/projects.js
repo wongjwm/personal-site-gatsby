@@ -25,11 +25,10 @@ const ProjectPage = ({ data }) => (
         }} >
           <Link to={node.fields.slug}>
             <h3 style={{
-              color: 'black',
-              textAlign: 'center',
+              color: 'yellow',
               verticalAlign: 'middle',
-              marginTop: '110px',
-              backgroundColor: 'white',
+              marginTop: '25px',
+              marginLeft: '25px',
             }}>
               {node.frontmatter.title}{""}
             </h3>

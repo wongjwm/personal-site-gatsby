@@ -7,3 +7,22 @@ header Link {
   text-decoration: green underline wavy;
   letter-spacing: 0.1em;
 }
+
+.page-header {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+}
+
+/* nav ul {
+  display: flex;
+  flex: 1;
+}
+
+nav ul li {
+  list-style-type: none;
+  padding: '1rem';
+  font-size: 25px;
+  font-weight: 800;
+} */

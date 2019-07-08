@@ -1,7 +1,9 @@
 body {
     /* background-color: #f7f0f0; */
-    background-image: radial-gradient(73% 147%, #EADFDF 59%, #ECE2DF 100%), radial-gradient(91% 146%, rgba(255,255,255,0.50) 47%, rgba(0,0,0,0.50) 100%);
-    background-blend-mode: screen;
+    /* background-image: radial-gradient(73% 147%, #EADFDF 59%, #ECE2DF 100%), radial-gradient(91% 146%, rgba(255,255,255,0.50) 47%, rgba(0,0,0,0.50) 100%);
+    background-blend-mode: screen; */
+
+    background:#fffaf7;
 
     -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 2s; /* Firefox < 16 */
@@ -28,7 +30,7 @@ body {
 .hero h1{
     padding-top: 10%;
     font-size: 56px;
-    text-shadow: 2px 2px #FF0000;
+    text-shadow: 2px 2px #ed6555;
 }
 
 .hero p {
@@ -36,14 +38,14 @@ body {
 }
 
 a { 
-    color:red;
+    color:#ed6555;
     text-decoration: none; 
 }
 
 /* Each state */
 a:visited { 
     text-decoration: none; 
-    color:red; 
+    color:#ed6555; 
 }
 
 a:hover { 
@@ -56,14 +58,14 @@ a:focus {
 }
 
 a:hover, a:active { 
-    text-decoration: blue underline wavy 
+    text-decoration: #004953 underline wavy 
 }
 
 
 @media screen and (max-width: 600px) {
     .hero h1{
         font-size: 36px;
-        text-shadow: 2px 2px #FF0000;
+        text-shadow: 2px 2px #ed6555;
     }
     
     .hero p {

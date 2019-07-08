@@ -1,7 +1,7 @@
 ---
 title: "Graphic Design"
 date: "2019-06-24"
-image: "./culture-show-poster.png"
+image: "./graphic-design-cover.png"
 ---
 
 As an active member of the Asian-American community at Northeastern University, I always looked for ways to get involved. This desire manifested into the design work I've done over my past years at school.

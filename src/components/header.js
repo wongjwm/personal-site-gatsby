@@ -9,14 +9,7 @@ const activeStyles = {
 
 const Header = ({ siteTitle, menuLinks }) => (
   <header>
-    <div
-      style={{
-        margin: `0 auto`,
-        display: 'flex',
-        justifyContent: 'space-between',
-        height: '60px',
-      }}
-    >
+    <div className="page-header">
       <h1>
         <Link to="/">
           {siteTitle}
@@ -26,8 +19,8 @@ const Header = ({ siteTitle, menuLinks }) => (
       <div>
         <nav>
           <ul style={{
-            display:'flex',
-            flex:'1'
+            display: 'flex',
+            flex: '1',
           }}>
             {menuLinks.map(link => (
               <li
