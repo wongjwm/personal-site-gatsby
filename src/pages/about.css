@@ -30,6 +30,10 @@
   justify-content: space-between;
 }
 
+.skills-description ul {
+  list-style-type: circle;
+}
+
 @media screen and (max-width: 900px) {
   .about-description {
     display: flex;

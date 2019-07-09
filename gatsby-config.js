@@ -7,16 +7,12 @@ module.exports = {
         link: '/about'
       },
       {
-        name:'projects',
+        name:'resume', // add a goog drive link to resume if no workaround? 
         link:'/projects'
       },
-      // {
-      //   name:'resume',
-      //   link:'/resume.pdf'
-      // },
     ],
     description: `judy wong's personal website`,
-    author: `@gatsbyjs`,
+    author: `@wongjwm`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

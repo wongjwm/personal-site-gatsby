@@ -18,12 +18,12 @@ const ProjectPage = ({ data }) => (
     }}>
 
       {data.allMarkdownRemark.edges.map(({node}) => (
-        <div className='box' key={node.id} style= {{
-          backgroundImage: `url(${node.frontmatter.image.childImageSharp.fluid.src})`,
-          backgroundSize: 'cover',
-          backgroundColor: 'white',
-        }} >
-          <Link to={node.fields.slug}>
+      <Link to={node.fields.slug}>
+          <div className='box' key={node.id} style= {{
+            backgroundImage: `url(${node.frontmatter.image.childImageSharp.fluid.src})`,
+            backgroundSize: 'cover',
+            backgroundColor: 'white',
+          }} >
             <h3 style={{
               color: 'yellow',
               verticalAlign: 'middle',
@@ -32,8 +32,8 @@ const ProjectPage = ({ data }) => (
             }}>
               {node.frontmatter.title}{""}
             </h3>
-          </Link>
-        </div>
+          </div>
+      </Link>
       ))}
     </div>
   </Layout>

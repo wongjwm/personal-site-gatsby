@@ -7,10 +7,7 @@ const Footer = () => (
   <footer>
 
     <div className="footer-left-content">
-      © {new Date().getFullYear()}, designed & developed by judy wong. 
-      built with
-      {` `}
-      <a href="https://www.gatsbyjs.org">gatsby</a>
+      © {new Date().getFullYear()}, designed & developed by judy wong.
     </div>
 
     <div className="social-media-links">

@@ -44,32 +44,32 @@ const AboutPage = () => (
           <div>
             <h4>design: </h4>
             <ul>
-              <li>Sketch</li>
-              <li>Adobe Photoshop</li>
-              <li>Adobe Illustrator</li>
-              <li>Adobe Indesign</li>
-              <li>Invision</li>
-              <li>Zeplin</li>
+              <li>sketch</li>
+              <li>adobe photoshop</li>
+              <li>adobe illustrator</li>
+              <li>adobe indesign</li>
+              <li>invision</li>
+              <li>zeplin</li>
             </ul>
           </div>
 
           <div>
           <h4>code:</h4>
             <ul>
-              <li>HTML/CSS + SASS</li>
-              <li>Javascript</li>
-              <li>React/React Native</li>
-              <li>Swift</li>
-              <li>Java</li>
+              <li>html/css + sass</li>
+              <li>javascript</li>
+              <li>react/react native</li>
+              <li>swift</li>
+              <li>java</li>
             </ul>
           </div>
 
           <div>
           <h4>other:</h4>
             <ul>
-              <li>Git</li>
-              <li>XCode</li>
-              <li>Jira</li>
+              <li>git</li>
+              <li>xcode</li>
+              <li>jira</li>
             </ul>
           </div>
           

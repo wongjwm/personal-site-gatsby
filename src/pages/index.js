@@ -16,7 +16,7 @@ const IndexPage = ( {data} ) => (
     }}>
       
       <h1> well, hello!</h1>
-      <p>i'm <b>judy wong</b>. nyc-based designer & developer.</p>
+      <p>i'm <b>judy wong</b>. designer & developer. city foodie at heart. </p>
       <p>learn more about me <a href="/about">here</a>! and check out my work <a href="/projects">here</a>!</p>
 
     </div>
@@ -28,12 +28,12 @@ const IndexPage = ( {data} ) => (
     }}>
 
       {data.allMarkdownRemark.edges.map(({node}) => (
-        <div className='box' key={node.id} style= {{
-          backgroundImage: `url(${node.frontmatter.image.childImageSharp.fluid.src})`,
-          backgroundSize: 'cover',
-          backgroundColor: 'white',
-        }} >
-          <Link to={node.fields.slug}>
+      <Link to={node.fields.slug}>
+          <div className='box' key={node.id} style= {{
+            backgroundImage: `url(${node.frontmatter.image.childImageSharp.fluid.src})`,
+            backgroundSize: 'cover',
+            backgroundColor: 'white',
+          }} >
             <h3 style={{
               color: 'yellow',
               verticalAlign: 'middle',
@@ -42,8 +42,8 @@ const IndexPage = ( {data} ) => (
             }}>
               {node.frontmatter.title}{""}
             </h3>
-          </Link>
-        </div>
+          </div>
+      </Link>
       ))}
     </div>
     
