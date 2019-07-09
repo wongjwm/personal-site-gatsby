@@ -16,7 +16,7 @@ const IndexPage = ( {data} ) => (
   <Layout>
     <SEO title="Home" />
 
-    <div className= 'hero' style= {{
+    <div className= 'hero' data-aos='fade-right' style= {{
       height: '400px',
     }}>
       

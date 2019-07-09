@@ -7,18 +7,25 @@ import SEO from "../components/seo"
 import "./about.css"
 import profilepic from '../images/profile-pic.jpg';
 import resume from "../content/resume-2019.pdf";
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+
+// animate on scroll
+AOS.init({
+  duration: 1200
+});
 
 const AboutPage = () => (
   <Layout>
     <SEO title="about me" />
 
     <div className="about-block">
-      <h2>about me!</h2>
+      <h2 data-aos='fade-right'>about me!</h2>
       <div className="about-description">
 
-      <img className= "profile-pic" src={profilepic}/>
+      <img className= "profile-pic" data-aos='fade-right' src={profilepic}/>
 
-        <div className="about-description-paragraph">
+        <div className="about-description-paragraph" data-aos='fade-left' >
           <p>hi! i’m <b>judy wong</b>, designer and developer based on the east 
           coast. i’m currently in my last year of studies at northeastern 
           university in boston, where i'm pursuing a B.S. in computer 
@@ -34,7 +41,7 @@ const AboutPage = () => (
 
       </div>
 
-        <div>
+      <div data-aos='fade-up'>
         <h3 style={{
             textDecoration: 'green underline wavy',
         }}>skills</h3>
