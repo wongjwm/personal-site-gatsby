@@ -1,6 +1,5 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
-
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
@@ -10,7 +9,7 @@ import 'aos/dist/aos.css'
 
 // animate on scroll
 AOS.init({
-  duration: 2000
+  duration: 1200
 });
 
 const IndexPage = ( {data} ) => (
@@ -27,14 +26,14 @@ const IndexPage = ( {data} ) => (
 
     </div>
 
-    <div className='projects'  data-aos='fade-up' style={{
+    <div className='projects' style={{
       display: 'flex',
       flexWrap: 'wrap',
       justifyContent: "space-between",
     }}>
       {data.allMarkdownRemark.edges.map(({node}) => (
       <Link to={node.fields.slug}>
-          <div className='box' key={node.id} style= {{
+          <div className='box' data-aos='fade-up' key={node.id} style= {{
             backgroundImage: `url(${node.frontmatter.image.childImageSharp.fluid.src})`,
             backgroundSize: 'cover',
             backgroundColor: 'white',
