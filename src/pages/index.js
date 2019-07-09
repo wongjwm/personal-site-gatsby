@@ -5,7 +5,13 @@ import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 import "./index.css"
-import ProjectPage from "./projects";
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+
+// animate on scroll
+AOS.init({
+  duration: 2000
+});
 
 const IndexPage = ( {data} ) => (
   <Layout>
@@ -21,12 +27,11 @@ const IndexPage = ( {data} ) => (
 
     </div>
 
-    <div className='projects' style={{
+    <div className='projects'  data-aos='fade-up' style={{
       display: 'flex',
       flexWrap: 'wrap',
       justifyContent: "space-between",
     }}>
-
       {data.allMarkdownRemark.edges.map(({node}) => (
       <Link to={node.fields.slug}>
           <div className='box' key={node.id} style= {{
@@ -45,6 +50,7 @@ const IndexPage = ( {data} ) => (
           </div>
       </Link>
       ))}
+
     </div>
     
   </Layout>
