@@ -32,9 +32,9 @@ const Header = ({ siteTitle, menuLinks }) => (
                   fontWeight: `800`,
                 }}
                 >
-                <Link style={{ color:'#004953'}} to={link.link} activeStyle={activeStyles}>
+                <a style={{ color:'#004953'}} href={link.link}>
                   {link.name}
-                </Link>
+                </a>
               </li>
             ))}
           </ul>

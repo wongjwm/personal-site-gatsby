@@ -1,22 +1,26 @@
 import React from "react"
-import { Link } from "gatsby"
-// import Image from "../components/image"
-
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import "./about.css"
 import profilepic from '../images/profile-pic.jpg';
-import resume from "../content/resume-2019.pdf";
-import AOS from 'aos'
 import 'aos/dist/aos.css'
 
-// animate on scroll
-AOS.init({
-  duration: 1200
-});
+class AboutPage extends React.Component {
 
-const AboutPage = () => (
-  <Layout>
+  componentDidMount() {
+    const AOS = require('aos');
+    this.aos = AOS
+    this.aos.init({duration: 1200})
+  }
+
+  componentDidUpdate() {
+    this.aos.refresh();
+  }
+
+  render() {
+    return (
+
+      <Layout>
     <SEO title="about me" />
 
     <div className="about-block">
@@ -79,15 +83,16 @@ const AboutPage = () => (
               <li>jira</li>
             </ul>
           </div>
-          
         </div>
-
-        <p>check out my resume <a href={resume}>here</a> and shoot me an email @ <a href="mailto:wong.ju@husky.neu.edu">wong.ju@husky.neu.edu</a></p>
+        <p>check out my resume <a href="https://drive.google.com/open?id=1D4-83HOKCjCfdoJMPPvFun8-yZ0ON-s8">here</a> and shoot me an email @ <a href="mailto:wong.ju@husky.neu.edu">wong.ju@husky.neu.edu</a></p>
         
       </div>
 
     </div>
   </Layout>
-)
+
+    )
+  }
+}
 
 export default AboutPage

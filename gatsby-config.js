@@ -4,11 +4,11 @@ module.exports = {
     menuLinks: [
       {
         name: 'about',
-        link: '/about'
+        link: '/about',
       },
       {
-        name:'resume', // add a goog drive link to resume if no workaround? 
-        link:'/projects'
+        name:'resume',
+        link: 'https://drive.google.com/open?id=1D4-83HOKCjCfdoJMPPvFun8-yZ0ON-s8',
       },
     ],
     description: `judy wong's personal website`,
@@ -30,12 +30,6 @@ module.exports = {
         path: `${__dirname}/src/`,
       },
     },
-    // {
-    //   resolve: `gatsby-transformer-remark`,
-    //   options: {
-    //     plugins: ["gatsby-remark-copy-linked-files"],
-    //   },
-    // },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-remark-copy-linked-files`,
