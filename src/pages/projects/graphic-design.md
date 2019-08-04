@@ -16,5 +16,7 @@ During my 2nd year of college, I was Media & Design Specialist of the Chinese St
 
 The Asian-American Center on campus also holds an annual Asian-American Heritage Month in which many speakers are invited to discuss a variety of topics. I was approached to design the branding and collateral for the entire event, and was given much freedom on design choices.
 
-In addition to these two substantial positions, I've also had the opportunity to design one-off logos for programs within the Asian-American community.
+In addition to these two substantial positions, I've also had the opportunity to design one-off logos for programs within the Asian-American community. 
+
+<!-- TO DO: add assets here-->
 

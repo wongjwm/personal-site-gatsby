@@ -3,6 +3,7 @@ import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import "./index.css"
+import "./projects.css"
 import 'aos/dist/aos.css'
 
 class IndexPage extends React.Component {
@@ -27,14 +28,12 @@ class IndexPage extends React.Component {
       <div className= 'hero' data-aos='fade-right' style= {{
         height: '400px',
       }}>
-        
         <h1> well, hello!</h1>
-        <p>i'm <b>judy wong</b>. designer & developer. city foodie at heart. </p>
+        <p>i'm <b>judy wong</b>. designer & developer. </p>
         <p>learn more about me <a href="/about">here</a>! and check out my work <a href="/projects">here</a>!</p>
-
       </div>
 
-      <div className='projects' style={{
+      <div id='projects' className='projects' style={{
         display: 'flex',
         flexWrap: 'wrap',
         justifyContent: "space-between",

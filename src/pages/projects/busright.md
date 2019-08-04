@@ -10,7 +10,7 @@ image: "./BusRight_final_logo-05.png"
 
 My role on the team was both designer and developer. As someone who takes in interest in both aspects of creation, as well as the actual implementation, I took on different roles during my time on the team. 
 
-In terms of design, I took on the role of a UI/UX designer via creating low-fidelity and high-fidelity wireframes. 
+In terms of design, I took on the role of a UI/UX designer via creating low-fidelity and high-fidelity wireframes, as well as contributing to the UI component library that was created for the brand. 
 
 As for development, I spearheaded the development of the marketing website and worked alongside the marketing website designer on our team. The site was built using  <a href="https://gohugo.io/">Hugo</a>, a static site generator framework that I was not familiar with initially, but quickly got accustomed to. 
 

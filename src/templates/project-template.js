@@ -8,7 +8,7 @@ export default ({ data }) => {
   const post = data.markdownRemark
   return (
     <Layout>
-     <Link to="/projects/">back to projects</Link>
+     <Link to="/#projects">back to projects</Link>
       <div style={{
         paddingTop:"10px",
       }}>
