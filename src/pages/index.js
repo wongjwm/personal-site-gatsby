@@ -29,8 +29,9 @@ class IndexPage extends React.Component {
         height: '400px',
       }}>
         <h1> well, hello!</h1>
-        <p>i'm <b>judy wong</b>. designer & developer. </p>
+        <p>i'm <b>judy wong</b>. developer & designer.</p>
         <p>learn more about me <a href="/about">here</a>! and check out my work <a href="/projects">here</a>!</p>
+        <p>currently looking for full-time roles starting <i>may 2020</i></p>
       </div>
 
       <div id='projects' className='projects' style={{
@@ -46,7 +47,7 @@ class IndexPage extends React.Component {
               backgroundColor: 'white',
             }} >
               <h3 style={{
-                color: 'yellow',
+                color: '#A6B0AC',
                 verticalAlign: 'middle',
                 marginTop: '25px',
                 marginLeft: '25px',

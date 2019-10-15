@@ -3,9 +3,10 @@ footer {
   flex-wrap: wrap;
   justify-content: space-between;
   font-size: 16px;
+  font-weight: bold;
   padding: 1%;
   height: 5%;
-  background-color: white;
+  /* background-color: black; */
 }
 
 .social-media-links {
@@ -14,7 +15,7 @@ footer {
 }
 
 .social-media-links a {
-  padding-left: 5px;
+  padding-left: 15px;
 }
 
 @media screen and (max-width: 750px) {

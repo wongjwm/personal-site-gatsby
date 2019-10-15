@@ -25,7 +25,7 @@ const ProjectPage = ({ data }) => (
             backgroundColor: 'white',
           }} >
             <h3 style={{
-              color: 'yellow',
+              color: '#A6B0AC',
               verticalAlign: 'middle',
               marginTop: '25px',
               marginLeft: '25px',

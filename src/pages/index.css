@@ -3,7 +3,8 @@ body {
     /* background-image: radial-gradient(73% 147%, #EADFDF 59%, #ECE2DF 100%), radial-gradient(91% 146%, rgba(255,255,255,0.50) 47%, rgba(0,0,0,0.50) 100%);
     background-blend-mode: screen; */
 
-    background:#fffaf7;
+    /* background:#fffaf7; */
+    background: #ECF9F4;
 
     -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 2s; /* Firefox < 16 */
@@ -30,7 +31,7 @@ body {
 .hero h1{
     padding-top: 10%;
     font-size: 56px;
-    text-shadow: 2px 2px #ed6555;
+    text-shadow: 2px 2px #A6B0AC;
 }
 
 .hero p {
@@ -49,7 +50,7 @@ a:visited {
 }
 
 a:hover { 
-    text-decoration: yellow underline wavy;
+    text-decoration: #DEBB44 underline wavy;
 }
 
 a:focus { 

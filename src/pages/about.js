@@ -30,7 +30,7 @@ class AboutPage extends React.Component {
       <img className= "profile-pic" data-aos='fade-right' src={profilepic}/>
 
         <div className="about-description-paragraph" data-aos='fade-left' >
-          <p>hi! i’m <b>judy wong</b>, designer and developer based on the east 
+          <p>hi! i’m <b>judy wong</b>, developer and designer based on the east 
           coast. i’m currently in my last year of studies at northeastern 
           university in boston, where i'm pursuing a B.S. in computer 
           science & interactive media. </p>
@@ -53,6 +53,18 @@ class AboutPage extends React.Component {
         <div className="skills-description">
 
           <div>
+          <h4>code:</h4>
+            <ul>
+              <li>react/react native</li>
+              <li>javascript</li>
+              <li>html/css + sass</li>
+              <li>java</li>
+              <li>swift</li>
+              <li>graphql</li>
+            </ul>
+          </div>
+
+          <div>
             <h4>design: </h4>
             <ul>
               <li>sketch</li>
@@ -61,17 +73,6 @@ class AboutPage extends React.Component {
               <li>adobe indesign</li>
               <li>invision</li>
               <li>zeplin</li>
-            </ul>
-          </div>
-
-          <div>
-          <h4>code:</h4>
-            <ul>
-              <li>html/css + sass</li>
-              <li>javascript</li>
-              <li>react/react native</li>
-              <li>swift</li>
-              <li>java</li>
             </ul>
           </div>
 

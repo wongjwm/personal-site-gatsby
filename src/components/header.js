@@ -28,7 +28,7 @@ const Header = ({ siteTitle, menuLinks }) => (
                 style={{
                   listStyleType: 'none',
                   padding: '1rem',
-                  fontSize: `25px`,
+                  fontSize: `20px`,
                   fontWeight: `800`,
                 }}
                 >
