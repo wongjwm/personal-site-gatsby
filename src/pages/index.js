@@ -31,7 +31,6 @@ class IndexPage extends React.Component {
         <h1> well, hello!</h1>
         <p>i'm <b>judy wong</b>. developer & designer.</p>
         <p>learn more about me <a href="/about">here</a>! and check out my work <a href="/projects">here</a>!</p>
-        <p>currently looking for full-time roles starting <i>may 2020</i></p>
       </div>
 
       <div id='projects' className='projects' style={{
